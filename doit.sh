@@ -110,9 +110,9 @@ cat << SEEDERS..0.VEHICULOS.JS > seeders/0-vehiculos.js
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('Vehiculos', [{
-      modelo: 'Ford Torino',
-      año:  '1982',
-      color: 'Rojo',
+      modelo: 'Ford',
+      año:  '1999',
+      color: 'azul',
       createdAt: new Date(),
       updatedAt: new Date()
     },
@@ -124,15 +124,15 @@ module.exports = {
       updatedAt: new Date()
     },
     {
-      modelo: 'Lamborghini Diablo',
+      modelo: 'Lamborghini',
       año:  '2005',
-      color: 'Rojo Rubí',
+      color: 'negro,
       createdAt: new Date(),
       updatedAt: new Date()
     },
     {
-      modelo: 'Mercedes 200',
-      año:  '2005',
+      modelo: 'Mercedes',
+      año:  '2020',
       color: 'Negro',
       createdAt: new Date(),
       updatedAt: new Date()
